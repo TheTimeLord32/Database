@@ -1,0 +1,25 @@
+
+-- 1. visualizzare il cliente con il seguente nome: 056910
+select cliente.nome_cliente
+from cliente
+where cliente.nome_cliente = 'Nome-Cliente056910';
+
+db.cliente.find(
+    {
+        "nome_cliente": "Nome-Cliente056910"
+    }
+).explain("executionStats")
+
+-- 2. visualizzare la regione con il seguente nome: 000050
+select regione.nome_regione
+from regione
+where regione.nome_regione = 'Nome-Regione000050';
+
+db.regione.find(
+    {
+        "nome_regione": "Nome-Regione000050"
+    },
+    {
+        "nome_regione": 1
+    }
+).explain("executionStats")

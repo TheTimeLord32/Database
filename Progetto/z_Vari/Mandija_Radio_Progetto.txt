@@ -1,0 +1,20 @@
+Entità:
+-lavoratore
+-cliente
+-apparato
+-antenna
+-mezzo di trasporto
+-regione
+-postazione radio
+-intervento
+-post
+-interv
+
+Da aggiungere:
+-collaboratori esterni
+-preventivi/spese
+-stipendio/paga
+
+-evento per i turni settimanali
+-trigger per i prezzi e stipendi
+

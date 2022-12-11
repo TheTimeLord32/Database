@@ -1,0 +1,42 @@
+├───Documentazione
+│       Mandija_Radio_Documentazione.doc
+│       Mandija_Radio_Documentazione.pdf
+│
+├───MongoDB
+│   │   Mandija_Radio_MongoDB.txt
+│   │   Mandija_Radio_Query_MySQL-MongoDB.txt
+│   │   Mandija_Radio_Schema-DB.sql
+│   │   Mandija_Radio_Script_200k.py
+│   │
+│   ├───File JSON
+│   │       Mandija_Radio_Cliente_MongoDB.json
+│   │       Mandija_Radio_Intervento_MongoDB.json
+│   │       Mandija_Radio_Lavoratore_MongoDB.json
+│   │       Mandija_Radio_Regione_MongoDB.json
+│   │       Mandija_Radio_Trasporto_MongoDB.json
+│   │
+│   ├───File Query
+│   │       Mandija_Radio_Query_1.png
+│   │       Mandija_Radio_Query_2.png
+│   │
+│   └───File SQL 200k
+│           Mandija_Radio_Cliente_200k.sql
+│           Mandija_Radio_Intervento_200k.sql
+│           Mandija_Radio_Lavoratore_200k.sql
+│           Mandija_Radio_Regione_200k.sql
+│           Mandija_Radio_Trasporto_200k.sql
+│
+├───Schema Logico-Fisico
+│       Mandija_Radio_Schema Fisico-1.png
+│       Mandija_Radio_Schema Fisico-2.png
+│       Mandija_Radio_Schema Logico-1.png
+│       Mandija_Radio_Schema Logico-2.png
+│       Mandija_Radio_Schema-Logico-Fisico.drawio
+│       Mandija_Radio_Schema-Logico-Fisico.pdf
+│
+└───SQL
+        Mandija_Radio_Extra.sql
+        Mandija_Radio_Insert-DB.sql
+        Mandija_Radio_Query-AlgRel.txt
+        Mandija_Radio_Query.sql
+        Mandija_Radio_Schema-DB.sql

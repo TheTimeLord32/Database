@@ -1,0 +1,16 @@
+-- 1. visualizzare l'intervento con spesa minima e lo stipendio del lavoratore
+
+select intervento.id_intervento, intervento.spesa, lavoratore.stipendio
+from intervento
+inner join lavoratore on intervento.id_lavoratore = lavoratore.id_lavoratore
+where intervento.spesa = 0;
+
+π intervento.id_intervento, intervento.spesa, lavoratore.stipendio (intervento |X| (intervento.id_lavoratore = lavoratore.id_lavoratore) lavoratore σ(intervento.spesa = 0))
+
+-- 2. visualizzare gli interventi effettuati nel mese di gennaio
+
+select intervento.id_intervento, intervento.data_intervento
+from intervento
+where data_intervento >= '2021-01-01' and data_intervento <= '2021-01-31';
+
+π id_intervento, data_intervento (σ data_intervento >= '2021-01-01' and data_intervento <= '2021-01-31' (intervento))
